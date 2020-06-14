@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Light/Clock</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Light/Clock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M23.9998,12.0001 C23.9998,18.6271 18.6278,24.0001 11.9998,24.0001 C5.3728,24.0001 -0.0002,18.6271 -0.0002,12.0001 C-0.0002,5.3721 5.3728,0.0001 11.9998,0.0001 C18.6278,0.0001 23.9998,5.3721 23.9998,12.0001" id="Fill-1" fill="#3867D6"></path>
+        <path d="M21.9998,12.0001 C21.9998,17.5221 17.5228,22.0001 11.9998,22.0001 C6.4778,22.0001 1.9998,17.5221 1.9998,12.0001 C1.9998,6.4771 6.4778,2.0001 11.9998,2.0001 C17.5228,2.0001 21.9998,6.4771 21.9998,12.0001" id="Fill-4" fill="#FFFFFF"></path>
+        <polygon id="Path" fill="#1B202A" fill-rule="nonzero" points="12.9998 4.0001 10.9998 4.0001 10.9998 12.4143136 15.2926932 16.7072068 16.7069068 15.2929932 12.9998 11.5858864"></polygon>
+    </g>
+</svg>

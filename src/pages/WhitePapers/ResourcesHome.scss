@@ -1,0 +1,64 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.resources-wrapper {
+  margin-top: 82px;
+  @include media-breakpoint-down(xs) {
+    margin-top: 50px;
+  }
+
+  .dt_resources-container {
+    background-color: #fff;
+
+    .wrapper-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px;
+      max-width: 1360px;
+      margin: 0 auto;
+      @include media-breakpoint-down(xs) {
+        margin-bottom: 50px;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 0 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    .wrapper-container {
+      display: block;
+
+      .image-wrapper {
+        text-align: center;
+        margin: 0;
+
+        .paragraph-style {
+          width: 100%;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .container {
+    .wrapper-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-left: 120px;
+
+      .image-wrapper {
+        .paragraph-style {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

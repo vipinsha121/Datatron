@@ -1,0 +1,248 @@
+@font-face {
+  src: url("../../../assets/fonts/TitilliumWeb-Light.ttf");
+  font-family: "TitilliumWeb";
+}
+
+@font-face {
+  src: url("../../../assets/fonts/TitilliumWeb-Bold.ttf");
+  font-family: "TitilliumWeb-Bold";
+}
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.model-platform-header-wrapper {
+  position: relative;
+  color: white;
+  height: 250px;
+  margin-left: 12.5%;
+  margin-top: 200px;
+  width: 87%;
+  max-width: 850px;
+  @include media-breakpoint-down(md) {
+    margin-left: 2%;
+    width: 96%;
+    margin-top: 150px !important;
+  }
+  @include media-breakpoint-down(xs) {
+    margin-top: 50px !important;
+    padding: 0 15px;
+    margin-left: 0px;
+    height: fit-content;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+
+  .platform-overview-text {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+    line-height: 24px;
+    color: rgba(46, 213, 115, 1);
+    font-family: "TitilliumWeb", "Helvetica", sans-serif;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+    }
+  }
+
+  .platform-overview-header {
+    font-size: 60px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    line-height: 72px;
+    font-family: "TitilliumWeb-Bold", "Helvetica", sans-serif;
+    margin-bottom: 10px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+      font-size: 3.5em;
+    }
+  }
+
+  .platform-overview-paragraph {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    line-height: 32px;
+    font-family: "TitilliumWeb", sans-serif;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+    }
+  }
+}
+
+.db_overview-content_wrapper {
+  background-color: #fff;
+  padding-top: 100px;
+  width: 100%;
+  @include media-breakpoint-down(md) {
+    padding-top: 32px;
+  }
+
+  @include media-breakpoint-down(xs) {
+    padding-top: 32px;
+  }
+
+  .row-container-class {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+
+    @include media-breakpoint-down(xs) {
+      margin-top: 32px !important;
+      margin-bottom: 32px !important;
+    }
+
+    .row-container-icon {
+      width: 12em;
+      height: 14em;
+    }
+  }
+}
+
+.automating-h3 {
+  font-size: 3.3em;
+  color: rgba(26, 31, 42, 1);
+  text-align: left;
+  line-height: 48px;
+  margin-bottom: 15px;
+  font-family: "TitilliumWeb-Bold", sans-serif;
+
+  @include media-breakpoint-down(xs) {
+    line-height: inherit;
+  }
+}
+
+.most-teams-paragraph {
+  font-size: 1.5em;
+  color: rgba(26, 31, 42, 1);
+  text-align: left;
+  line-height: 28px;
+  font-family: "TitilliumWeb", sans-serif;
+  margin-bottom: 50px;
+}
+
+.platform-overview-icons-container {
+  background-color: #1b202a;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 400px;
+  padding-left: 12.5%;
+  padding-right: 10.5%;
+  text-align: center;
+
+  @include media-breakpoint-down(xs) {
+    height: fit-content;
+    padding-top: 32px;
+  }
+  @include media-breakpoint-down(md) {
+    height: auto;
+    padding: 40px 10%;
+    .col-sm-4,
+    .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  .platform-overview-icons {
+    width: 5em;
+    height: 5em;
+    background: white;
+    padding: 16px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+
+    // @include media-breakpoint-down(xs) {
+    //   line-height: inherit;
+    // }
+  }
+
+  .platform-description {
+    font-size: 1.8em;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 32px;
+    font-family: "TitilliumWeb-Bold", sans-serif;
+    margin-bottom: 15px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+    }
+  }
+
+  .platform-paragraph {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 28px;
+    font-family: "TitilliumWeb", sans-serif;
+    opacity: 0.6;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.platform-catalog-section-h4 {
+  margin-top: 20px;
+  font-size: 32px;
+  color: rgba(47, 53, 66, 1);
+  text-align: left;
+  line-height: 40px;
+  font-family: "TitilliumWeb-Bold", sans-serif;
+  margin-bottom: 15px;
+}
+
+.platform-catalog-paragraph {
+  font-size: 18px;
+  color: rgba(26, 31, 42, 1);
+  text-align: left;
+  line-height: 28px;
+  font-family: "TitilliumWeb", sans-serif;
+}
+
+.learn-more-link {
+  font-size: 18px;
+  color: rgba(26, 31, 42, 1);
+  text-align: left;
+  line-height: 28px;
+  font-family: "TitilliumWeb-Bold", sans-serif;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.db_overview-content {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  @include media-breakpoint-down(md) {
+    width: 96%;
+  }
+  @include media-breakpoint-down(md) {
+    .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  .dataflow_img-wrapper {
+    width: 100%;
+    overflow-x: auto;
+
+    @include media-breakpoint-down(xs) {
+      padding-bottom: 32px;
+    }
+  }
+
+  .dataflow_img {
+    width: 100%;
+  }
+}

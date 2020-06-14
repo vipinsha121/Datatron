@@ -1,0 +1,371 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.dt-partners__container {
+  .dt-partners__header {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto !important;
+    color: white;
+    margin-top: 128px !important;
+
+    @include media-breakpoint-down(xs) {
+      width: 100%;
+      margin-top: 50px !important;
+    }
+
+    .partners-header__desc {
+      .page-category {
+        font-size: 1.3em;
+        color: #2ed573;
+        letter-spacing: 0.96px;
+        line-height: 24px;
+      }
+
+      .partners-page__title {
+        font-family: "TitilliumWeb-Bold", sans-serif;
+        font-size: 5em;
+        line-height: 72px;
+
+        @include media-breakpoint-down(xs) {
+          font-size: 3.5em;
+          line-height: inherit;
+        }
+      }
+      .partners-page__desc {
+        margin-top: 32px;
+        font-size: 2em;
+        line-height: 32px;
+
+        @include media-breakpoint-down(xs) {
+          line-height: inherit;
+        }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    .dt-partners-company_item .col-md-7 .company_item_desc-wrapper img {
+      max-width: 200px;
+      width: 90%;
+    }
+    .dt-partners-company_item .col-md-7 .company_item_desc-wrapper {
+      padding: 0;
+    }
+    .dt-partners__container,
+    .dt-partners-success__content,
+    .dt-partners-companies__wrapper {
+      width: 96% !important;margin: 0 auto;
+    }
+    .become_partner-desc {
+      padding: 30px 20px !important;
+    }
+    .dt-partners__container .become_partner-wrapper {
+      flex-direction: column;
+    }
+  }
+  .dt-partners-success__content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1b202a;
+    margin-top: 96px;
+    padding: 96px 0;
+
+    @include media-breakpoint-down(xs) {
+      margin-top: 50px;
+      height: fit-content;
+      padding: 50px 15px;
+    }
+
+    .dt-partners-companies__wrapper {
+      width: 75%;
+      max-width: 1440px;
+      @include media-breakpoint-down(md) {
+        width: 96%;
+      }
+      .success__title {
+        font-family: "TitilliumWeb-Bold", sans-serif;
+        font-size: 3.3em;
+        //   text-align: center;
+        line-height: 48px;
+
+        @include media-breakpoint-down(xs) {
+          line-height: inherit;
+        }
+      }
+
+      .success__desc {
+        font-size: 1.5em;
+        line-height: 28px;
+        margin-top: 18px;
+
+        .dt-partners-company_item {
+          margin-top: 40px !important;
+          img {
+            max-width: 80%;
+          }
+        }
+      }
+    }
+  }
+
+  .become_partner-wrapper {
+    max-width: 1440px;
+    width: 75%;
+    @include media-breakpoint-down(lg) {
+      width: 96%;
+    }
+    .become_partner-desc {
+      font-size: 2em;
+      color: #1b202a;
+
+      padding: 70px 60px;
+      @include media-breakpoint-down(sm) {
+        padding: 40px 0;
+      }
+    }
+
+    .become_partner-contact_form {
+      padding: 70px 60px;
+      @include media-breakpoint-down(xs) {
+        padding: 20px 0;
+      }
+    }
+  }
+
+  .dt-partners-core-values__content {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto !important;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    @include media-breakpoint-down(md) {
+      width: 96%;
+      padding: 50px 0;
+    }
+
+    .core-values__title {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      font-size: 3.3em;
+      line-height: 48px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 90px;
+      @include media-breakpoint-down(xs) {
+        margin-bottom: 0px;
+      }
+    }
+
+    .partner_item-wrapper {
+      padding: 40px 60px;
+      @include media-breakpoint-down(sm) {
+        padding: 20px 30px 0px;
+      }
+      .title {
+        font-size: 2em;
+      }
+
+      .content {
+        margin-top: 16px;
+        font-size: 1.5em;
+        line-height: 28px;
+        opacity: 0.6;
+      }
+    }
+
+    .core-values__desc {
+      margin-top: 16px;
+      font-size: 1.5em;
+      line-height: 28px;
+      max-width: 500px;
+    }
+
+    .core-values__accordion {
+      .core-values__collapsed-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 26px 0;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        border-color: white;
+
+        @include media-breakpoint-down(xs) {
+          padding: 15px 0;
+        }
+
+        .collapsed-item__icon {
+          height: 100%;
+
+          img {
+            @include media-breakpoint-down(xs) {
+              height: 55px;
+            }
+          }
+        }
+
+        .collapsed-item__content {
+          width: 81%;
+
+          @include media-breakpoint-down(xs) {
+            width: 70%;
+          }
+
+          .collapsed__title {
+            font-family: "TitilliumWeb-Bold", sans-serif;
+            font-size: 2em;
+            line-height: 32px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+          }
+
+          .collapsed__description {
+            font-size: 1.5em;
+            line-height: 28px;
+          }
+        }
+
+        .collapsed-item__close {
+          padding-top: 20px;
+
+          .opened {
+            transform: rotate(45deg);
+            transition: transform 0.1s;
+          }
+        }
+      }
+    }
+  }
+
+  .dt-partners-perks__content {
+    background-color: #f1f2f6;
+    color: #1b202a;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    @include media-breakpoint-down(xs) {
+      padding: 50px 0;
+    }
+
+    .perks__title {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      font-size: 3.3em;
+      text-align: center;
+      line-height: 48px;
+    }
+
+    .perks-items__content {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding-top: 20px;
+
+      @include media-breakpoint-down(xs) {
+        width: 100%;
+      }
+
+      .perk-items__row {
+        margin-top: 40px;
+
+        .perkitem__wrapper {
+          margin-top: 20px;
+        }
+
+        .perkitem__offset__wrapper {
+          @include media-breakpoint-down(xs) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .dt-partners-jobs__content {
+    background-color: white;
+    color: #1b202a;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include media-breakpoint-down(xs) {
+      padding: 50px 0;
+    }
+    @include media-breakpoint-down(md) {
+      * {
+        display: block;
+      }
+    }
+
+    .jobs-content__title {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      font-size: 3.3em;
+      text-align: center;
+      line-height: 48px;
+    }
+
+    .jobs-content__desc {
+      margin-top: 16px;
+      font-size: 2em;
+      text-align: center;
+      line-height: 32px;
+
+      @include media-breakpoint-down(xs) {
+        margin-top: 0px;
+        padding: 0 15px;
+      }
+    }
+
+    .jobs-content__container {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto;
+      margin-top: 68px;
+
+      @include media-breakpoint-down(xs) {
+        width: 100%;
+        margin-top: 0;
+      }
+
+      .job-category__row {
+        padding: 24px 0;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: #dfe4ea;
+      }
+
+      .jobs__category {
+        font-family: "TitilliumWeb-Bold", sans-serif;
+        font-size: 2.7em;
+        line-height: 40px;
+      }
+
+      .job-item__row {
+        padding: 16px 0;
+        font-size: 1.5em;
+        line-height: 28px;
+        border-radius: 5px;
+
+        &:hover {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+            0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .job-title {
+          font-family: "TitilliumWeb-Bold", sans-serif;
+        }
+
+        .job-location {
+          text-align: end;
+        }
+      }
+    }
+  }
+}

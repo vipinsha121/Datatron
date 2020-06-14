@@ -1,0 +1,21 @@
+
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Platform/Management" transform="translate(-608.000000, -1970.000000)">
+            <g id="roi" transform="translate(0.000000, 1850.000000)">
+                <g id="content" transform="translate(424.000000, 120.000000)">
+                    <g id="roi">
+                        <g id="icon" transform="translate(184.000000, 0.000000)">
+                            <circle id="Oval" fill="#FFFFFF" cx="30" cy="30" r="30"></circle>
+                            <g id="Icon/Light/Clock" transform="translate(16.000000, 16.000000)">
+                                <path d="M27.9997667,14.0001167 C27.9997667,21.7316167 21.7324333,28.0001167 13.9997667,28.0001167 C6.26826667,28.0001167 -0.000233333333,21.7316167 -0.000233333333,14.0001167 C-0.000233333333,6.26745 6.26826667,0.000116666667 13.9997667,0.000116666667 C21.7324333,0.000116666667 27.9997667,6.26745 27.9997667,14.0001167" id="Fill-1" fill="#3867D6" fill-rule="evenodd"></path>
+                                <path d="M25.6664333,14.0001167 C25.6664333,20.44245 20.4432667,25.6667833 13.9997667,25.6667833 C7.55743333,25.6667833 2.3331,20.44245 2.3331,14.0001167 C2.3331,7.55661667 7.55743333,2.33345 13.9997667,2.33345 C20.4432667,2.33345 25.6664333,7.55661667 25.6664333,14.0001167" id="Fill-4" fill="#FFFFFF" fill-rule="evenodd"></path>
+                                <polygon id="Path" fill="#1B202A" fill-rule="nonzero" points="15.1664333 4.66678333 12.8331 4.66678333 12.8331 14.4833658 17.8414754 19.4917412 19.4913912 17.8418254 15.1664333 13.5168675"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

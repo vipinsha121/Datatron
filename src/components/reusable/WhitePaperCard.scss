@@ -1,0 +1,108 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+div.deployment-white_paper-container {
+  background-color: #f1f2f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto !important;
+  color: #1b202a;
+  overflow-x: auto;
+  padding-top: 138px; 
+  @include media-breakpoint-down(xs) {
+    padding: 32px 0;
+  }
+  @include media-breakpoint-down(md) {
+    width: 98%;
+  }
+  @include media-breakpoint-down(sm) {
+    .col-6,
+    .col-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  .white_paper-content {
+padding-bottom: 50px;
+    @include media-breakpoint-down(xs) {
+      padding: 32px 0;
+    }
+  }
+
+  .white_paper-category {
+    color: #2ed573;
+    letter-spacing: 0.96px;
+    line-height: 24px;
+    font-size: 1.3em;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+      font-size: 12px;
+    }
+  }
+
+  .white_paper-title {
+    font-family: "TitilliumWeb-Bold", sans-serif;
+    margin-top: 8px;
+    font-size: 3.3em;
+    line-height: 48px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+      font-size: 20px;
+    }
+  }
+
+  .white_paper-desc {
+    margin-top: 16px;
+    font-size: 2em;
+    line-height: 32px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+  }
+
+  .white_paper-action {
+    font-family: "TitilliumWeb-Bold", sans-serif;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #1b202a;
+    line-height: 32px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+      font-size: 12px;
+      margin-top: 12px;
+    }
+  }
+
+  .book-img {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    img {
+      width: 100%;
+      max-width: 400px;
+    }
+    @include media-breakpoint-down(sm) {
+      justify-content:center;
+      align-self: center;
+    }
+
+    .img {
+      @include media-breakpoint-down(xs) {
+        
+        max-width: 300px;
+      }
+    }
+  }
+}

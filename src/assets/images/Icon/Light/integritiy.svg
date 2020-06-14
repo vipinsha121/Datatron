@@ -1,0 +1,30 @@
+
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="28"></rect>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Careers" transform="translate(-858.000000, -1554.000000)">
+            <g id="core-values" transform="translate(0.000000, 868.000000)">
+                <g id="content" transform="translate(240.000000, 120.000000)">
+                    <g id="Stacked-Group" transform="translate(618.000000, 0.000000)">
+                        <g id="integrity" transform="translate(0.000000, 540.000000)">
+                            <g id="icon" transform="translate(0.000000, 26.000000)">
+                                <circle id="Oval" fill="#FFFFFF" cx="30" cy="30" r="30"></circle>
+                                <g id="Icon/Light/Security" transform="translate(16.000000, 16.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Background"></g>
+                                    <path d="M9.62511667,-0.000116666667 C5.30845,4.14388333 0.000116666667,4.37371667 0.000116666667,4.37371667 L0.000116666667,12.8332167 C0.000116666667,22.0977167 9.62511667,25.66655 9.62511667,25.66655 C9.62511667,25.66655 19.2501167,22.0977167 19.2501167,12.8332167 L19.2501167,4.37371667 C19.2501167,4.37371667 13.9417833,4.14388333 9.62511667,-0.000116666667" id="Fill-1" fill="#1B202A" fill-rule="evenodd" mask="url(#mask-2)"></path>
+                                    <path d="M11.6667833,19.8332167 C11.6667833,15.3228833 15.3231167,11.66655 19.83345,11.66655 C24.3437833,11.66655 28.0001167,15.3228833 28.0001167,19.8332167 C28.0001167,24.34355 24.3437833,27.9998833 19.83345,27.9998833 C15.3231167,27.9998833 11.6667833,24.34355 11.6667833,19.8332167" id="Fill-4" fill="#2ED573" fill-rule="evenodd" mask="url(#mask-2)"></path>
+                                    <polygon id="Fill-7" fill="#1B202A" fill-rule="evenodd" mask="url(#mask-2)" points="22.7204833 16.12135 18.5963167 20.2455167 16.94665 18.59585 15.2969833 20.2455167 16.94665 21.8951833 18.5963167 23.54485 20.2459833 21.8951833 24.37015 17.7710167"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

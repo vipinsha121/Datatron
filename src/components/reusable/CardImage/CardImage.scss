@@ -1,0 +1,84 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@font-face {
+  src: url("../../../assets/fonts/TitilliumWeb-Bold.ttf");
+  font-family: "TitilliumWeb-Bold";
+}
+@include media-breakpoint-down(md) {
+  .wrapper-container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+@include media-breakpoint-down(xs) {
+  .wrapper-container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .industry-header {
+    padding: 5px 20px 40px;
+  }
+}
+.card-image-wrapper {
+  cursor: pointer;
+  width: 23%;
+  margin: 0 1%;
+  @include media-breakpoint-down(md) {
+    width: 46%;
+    margin: 0 2%;
+  }
+  @include media-breakpoint-down(xs) {
+    width: 92%;
+    margin: 0 4%;
+  }
+  a {
+    width: 100%;
+  }
+  .card-image-style {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    padding-top: 0;
+
+    @include media-breakpoint-down(xs) {
+      margin-top: 50px;
+    }
+  }
+
+  .card-paragraph-style {
+    width: 100%;
+    font-size: 22px;
+    font-family: "TitilliumWeb-Bold", sans-serif;
+  }
+}
+
+.card-image-wrapper:hover {
+  color: #2ed573;
+}
+
+.card-image-style:hover {
+  box-shadow: 7px 10px #2ed573;
+  transition: all 0.2s ease 0s;
+  transform: translate(-10px, -10px);
+  -webkit-transform: translate(-10px, -10px); /** Safari & Chrome **/
+  -o-transform: translate(-10px, -10px); /** Opera **/
+  -moz-transform: translate(-10px, -10px); /** Firefox **/
+}
+
+@media only screen and (min-width: 1441px) {
+  .card-image-wrapper {
+    .card-image-style {
+      width: 348px;
+      height: auto;
+    }
+
+    .card-paragraph-style {
+      width: 333px;
+      font-size: 25px;
+    }
+  }
+}

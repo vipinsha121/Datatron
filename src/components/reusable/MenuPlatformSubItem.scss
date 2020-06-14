@@ -1,0 +1,33 @@
+.subitem__container {
+  width: 30%;
+
+  .icon__section {
+    padding: 0 16px;
+  }
+
+  .subitem__content {
+
+    .title {
+      font-family: 'TitilliumWeb-Bold', sans-serif;
+      font-size: 1.3em;
+      line-height: 28px;
+    }
+
+    .description {
+      font-family: 'TitilliumWeb', sans-serif;
+      font-size: 1.2em;
+      line-height: 24px;
+    }
+  }
+
+  .subitem__container-1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .subitem__container-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 72px;
+  }
+}

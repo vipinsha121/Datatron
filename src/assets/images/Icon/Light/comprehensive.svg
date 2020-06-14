@@ -1,0 +1,22 @@
+
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Careers" transform="translate(-488.000000, -2112.000000)">
+            <g id="perks" transform="translate(0.000000, 1760.000000)">
+                <g id="Perks" transform="translate(488.000000, 120.000000)">
+                    <g id="perk" transform="translate(0.000000, 232.000000)">
+                        <g id="icon">
+                            <circle id="base" fill="#FFFFFF" cx="30" cy="30" r="30"></circle>
+                            <g id="Icon/Light/Health" transform="translate(16.000000, 16.000000)">
+                                <g id="Group-6" transform="translate(0.000000, 3.500000)">
+                                    <path d="M23.7491333,1.9551 C21.1929667,-0.601066667 17.0478,-0.601066667 14.4916333,1.9551 L14.0004667,2.44743333 L13.5081333,1.9551 C10.9519667,-0.601066667 6.80796667,-0.601066667 4.25063333,1.9551 C1.69446667,4.51126667 1.69446667,8.65643333 4.25063333,11.2137667 L14.0004667,20.9624333 L23.7491333,11.2137667 C26.3053,8.65643333 26.3053,4.51126667 23.7491333,1.9551" id="Fill-1" fill="#EB3B5A"></path>
+                                    <polygon id="Fill-3" fill="#1B202A" points="14.4944333 17.4055 11.1811 8.46066667 8.79293333 11.7355 -0.000233333333 11.7355 -0.000233333333 9.40216667 7.60643333 9.40216667 11.8577667 3.5735 15.1874333 12.5591667 17.5744333 9.345 27.9997667 9.345 27.9997667 11.6783333 18.7481 11.6783333"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

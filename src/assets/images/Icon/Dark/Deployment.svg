@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Dark/Deployment</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Dark/Deployment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" transform="translate(1.000000, 1.000000)">
+            <polygon id="Fill-1" fill="#FFFFFF" points="10.8647 18.3587 13.0617 21.9997 15.3497 19.7127 16.0437 13.1797"></polygon>
+            <polygon id="Fill-2" fill="#FFFFFF" points="8.89 6.0012 2.9033 6.0952 0.0003 8.9982 3.6583 11.23"></polygon>
+            <g id="Group-7" transform="translate(4.000000, 0.000000)">
+                <path d="M13.921,6.5402 C13.257,7.2042 12.18,7.2042 11.516,6.5402 C10.852,5.8752 10.852,4.7992 11.516,4.1342 C12.18,3.4702 13.257,3.4702 13.921,4.1342 C14.585,4.7992 14.585,5.8752 13.921,6.5402 M16.928,1.1272 C13.061,0.5152 8.989,1.8992 6.069,4.8192 L0.296,10.5932 L7.463,17.7602 L13.236,11.9862 C16.156,9.0662 17.541,4.9942 16.928,1.1272" id="Fill-3" fill="#2ED573"></path>
+                <polygon id="Fill-5" fill="#FFFFFF" points="3.1241 16.1223 1.9211 14.9193 7.8521 8.9893 9.0541 10.1913"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,85 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.privacy_policy-container {
+  background-color: white;
+  margin-top: 80px;
+
+  @include media-breakpoint-down(xs) {
+    margin-top: 50px;
+  }
+
+  .privacy_policy-wrapper {
+    max-width: 1440px;
+    width: 75%;
+    margin: 0 auto!important;
+    padding: 120px 0;
+
+    @include media-breakpoint-down(xs) {
+      padding: 32px 15px;
+      width: 100%;
+    }
+
+    .sections-wrapper-h3 {
+      color: #2ED573;
+      font-family: 'TitilliumWeb', sans-serif;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+    }
+
+    .privacy_policy-paragraph {
+      margin-top: 20px;
+      font-family: 'TitilliumWeb', sans-serif;
+      font-size: 1.5em;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      display: block;
+
+      b {
+        font-family: 'TitilliumWeb-Bold', sans-serif;
+        font-weight: 600;
+      }
+
+      a {
+        text-decoration: underline!important;
+        color: #007bff!important
+      }
+    }
+
+    .privacy_policy-list_wrapper {
+      list-style-type: disc;
+      margin-top: 20px;
+      font-family: 'TitilliumWeb', sans-serif;
+      font-size: 1.5em;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      margin-left: 20px;
+
+      b {
+        font-family: 'TitilliumWeb-Bold', sans-serif;
+        font-weight: 600;
+      }
+    }
+
+    .privacy_policy-title {
+      margin-top: 40px;
+      font-family: 'TitilliumWeb-Bold', sans-serif;
+      font-size: 1.5em;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      display: block;
+    }
+  }
+}
+
+.privacy_policy-container.newResource {
+  @media (min-width:577px) and (max-width:724px){
+    margin-top: 112px;
+  }
+  @media (min-width:725px) and (max-width:850px){
+    margin-top: 135px;
+  }
+}

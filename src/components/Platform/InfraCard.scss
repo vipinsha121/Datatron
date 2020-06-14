@@ -1,0 +1,40 @@
+.infra_card-container {
+  border-width: 0.5px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #414A50;
+  text-align: center;
+  line-height: 20px;
+  padding: 12px 0;
+  width: 100%;
+
+  .number {
+    font-family: 'TitilliumWeb-Bold', sans-serif;
+    margin-top: 12px;
+  }
+}
+
+.healthy {
+  border-color: #1BBC9C;
+  color: #1BBC9C;
+  background-color: rgba(27,188,156,0.10);
+}
+
+.unhealthy {
+  background-color: rgba(231,80,90,0.10);
+  border-color: #E7505A;
+  color: #E7505A;
+}
+
+.normal {
+  border-color: #D3D9E0;
+  font-family: Helvetica;
+}
+
+.mobile_view_size {
+  font-size: 10px;
+}

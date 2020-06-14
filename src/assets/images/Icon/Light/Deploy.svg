@@ -1,0 +1,35 @@
+
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="0.8925 0.0631272437 20 0.0631272437 20 19.1703 0.8925 19.1703"></polygon>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-737.000000, -1280.000000)">
+            <g id="features" transform="translate(0.000000, 960.000000)">
+                <g id="content" transform="translate(240.000000, 120.000000)">
+                    <g id="Group-13" transform="translate(497.000000, 200.000000)">
+                        <g id="icon">
+                            <g id="Group-2">
+                                <circle id="Oval" fill="#FFFFFF" cx="20" cy="20" r="20"></circle>
+                                <g id="deployment" transform="translate(6.000000, 11.000000)">
+                                    <polygon id="Fill-1" fill="#000000" points="12.3745 19.8519 14.8765 23.9999 17.4825 21.3939 18.2725 13.9539"></polygon>
+                                    <polygon id="Fill-2" fill="#000000" points="3.307 5.8848 1.33226763e-14 9.1918 4.167 11.7048 10.095 5.7758"></polygon>
+                                    <g id="Group-8" transform="translate(3.999500, 0.000000)">
+                                        <g id="Group-5">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <g id="Clip-4"></g>
+                                            <path d="M16.4125,6.3903 C15.6555,7.1473 14.4295,7.1473 13.6725,6.3903 C12.9165,5.6333 12.9165,4.4073 13.6725,3.6513 C14.4295,2.8943 15.6555,2.8943 16.4125,3.6513 C17.1695,4.4073 17.1695,5.6333 16.4125,6.3903 M19.8375,0.2253 C15.4335,-0.4717 10.7955,1.1053 7.4695,4.4303 L0.8925,11.0063 L9.0575,19.1703 L15.6335,12.5943 C18.9585,9.2683 20.5355,4.6303 19.8375,0.2253" id="Fill-3" fill="#2ED573" mask="url(#mask-2)"></path>
+                                        </g>
+                                        <polygon id="Fill-6" fill="#000000" points="4.1147 17.3054 2.7447 15.9354 9.4997 9.1804 10.8687 10.5504"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

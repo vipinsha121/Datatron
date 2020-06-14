@@ -1,0 +1,48 @@
+{
+  "name": "dt-website-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cross-env": "^7.0.2",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-collapse": "^4.0.3",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.7.0",
+    "react-icons": "^3.7.0",
+    "react-motion": "^0.5.2",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.12",
+    "react-whirligig": "^6.6.3",
+    "reactstrap": "^8.0.1"
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=\"./:./src/\" react-scripts start",
+    "build": "cross-env NODE_PATH=\"./:./src/\" react-scripts build",
+    "test": "cross-env NODE_PATH=\"./:./src/\" react-scripts test",
+    "eject": "cross-env NODE_PATH=\"./:./src/\" sreact-scripts eject",
+    "deploy": "aws s3 sync build/ s3://www.datatron.com --acl public-read"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.1",
+    "prop-types": "^15.7.2"
+  }
+}

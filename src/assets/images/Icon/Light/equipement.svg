@@ -1,0 +1,24 @@
+
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Careers" transform="translate(-488.000000, -1988.000000)">
+            <g id="perks" transform="translate(0.000000, 1760.000000)">
+                <g id="Perks" transform="translate(488.000000, 120.000000)">
+                    <g id="perk" transform="translate(0.000000, 108.000000)">
+                        <g id="icon">
+                            <circle id="base" fill="#FFFFFF" cx="30" cy="30" r="30"></circle>
+                            <g id="Icon/Light/Device-Laptop" transform="translate(16.000000, 16.000000)">
+                                <g id="Group-5" transform="translate(0.000000, 5.833333)">
+                                    <polygon id="Fill-1" fill="#1B202A" points="2.33333333 14 25.6666667 14 25.6666667 0 2.33333333 0"></polygon>
+                                    <polygon id="Fill-2" fill="#2ED573" points="3.50116667 2.33333333 24.5011667 2.33333333 24.5011667 1.16666667 3.50116667 1.16666667"></polygon>
+                                    <polygon id="Fill-3" fill="#1B202A" points="0 13.9997667 1.16666667 16.3331 26.8333333 16.3331 28 13.9997667"></polygon>
+                                    <polygon id="Fill-4" fill="#56E383" points="11.6921 5.85841667 13.3172667 10.3944167 13.9787667 8.85325 15.5992667 10.4749167 15.9539333 10.12025 16.3086 9.76675 14.6869333 8.14508333 16.2281 7.48475"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

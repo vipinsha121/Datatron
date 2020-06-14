@@ -1,0 +1,42 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.govern-row_card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+
+  .govern-row_card-img {
+    width: 5em;
+    height: 5em;
+  }
+
+  .govern-row_card-title {
+    margin-top: 24px;
+    font-family: 'TitilliumWeb-Bold', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    line-height: 32px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+      margin-top: 12px;
+    }
+  }
+  
+  .govern-row_card-desc {
+    opacity: 0.8;
+    margin-top: 12px;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 28px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+      margin-top: 6px;
+    }
+  }
+}

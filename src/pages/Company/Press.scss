@@ -1,0 +1,128 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.dt-press__container {
+  .press-container__header {
+    width: 75%;
+    max-width: 1440;
+    margin: 0 auto;
+    color: white;
+    margin-top: 184px;
+
+    @include media-breakpoint-down(xs) {
+      width: 100%;
+      padding: 0 15px;
+      margin-top: 50px;
+    }
+
+    .press-header__category {
+      font-size: 1.3em;
+      color: #2ed573;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+    }
+
+    .press-header__title {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      font-size: 5em;
+      line-height: 72px;
+
+      @include media-breakpoint-down(xs) {
+        font-size: 3.5em;
+        line-height: inherit;
+      }
+    }
+
+    .press-header__desc {
+      margin-top: 32px;
+      font-family: "TitilliumWeb", sans-serif;
+      font-size: 2em;
+      line-height: 32px;
+
+      @include media-breakpoint-down(xs) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .press-container__content {
+    background-color: white;
+    color: #1b202a;
+    margin-top: 148px;
+    padding-top: 120px;
+
+    @include media-breakpoint-down(xs) {
+      padding-top: 50px;
+      margin-top: 50px;
+    }
+
+    .press-content__wrapper {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto;
+
+      @include media-breakpoint-down(xs) {
+        width: 100%;
+      }
+
+      .press-content__title {
+        font-family: "TitilliumWeb-Bold", sans-serif;
+        font-size: 3.3em;
+        text-align: center;
+        line-height: 48px;
+      }
+
+      .press_featured-row {
+        margin-top: 80px !important;
+
+        @include media-breakpoint-down(xs) {
+          margin-top: 20px !important;
+        }
+
+        .featured-card__wrapper {
+          @include media-breakpoint-down(xs) {
+            margin-top: 30px;
+          }
+        }
+      }
+
+      .press-container__divider {
+        height: 1px;
+        background-color: #747d8c;
+        margin-top: 120px;
+
+        @include media-breakpoint-down(xs) {
+          margin: 50px 15px 0 15px;
+        }
+      }
+
+      .press-items__content {
+        margin-top: 120px;
+
+        @include media-breakpoint-down(xs) {
+          margin-top: 50px;
+        }
+
+        .press-items__row {
+          padding-bottom: 48px;
+          // display: none;
+          // &:first-child {
+          //   display: flex;
+          // }
+
+          @include media-breakpoint-down(xs) {
+            // flex-wrap: nowrap;
+            // overflow-x: auto;
+            padding-bottom: 0;
+          }
+          .press-card__container {
+            margin-top: 20px;
+            height: 98%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

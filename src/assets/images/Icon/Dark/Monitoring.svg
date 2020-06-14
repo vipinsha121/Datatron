@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Dark/Monitoring</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Dark/Monitoring" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M24,12 C24,18.628 18.627,24 12,24 C5.372,24 0,18.628 0,12 C0,5.373 5.372,0 12,0 C18.627,0 24,5.373 24,12" id="Fill-1" fill="#2ED573"></path>
+        <path d="M9.39170584,10.8061543 L5.837,7.2521 L7.251,5.8381 L10.8054651,9.39191363 C11.1691783,9.22503518 11.5738205,9.132 12.0002,9.132 C13.5842,9.132 14.8672,10.416 14.8672,12 C14.8672,13.584 13.5842,14.868 12.0002,14.868 C10.4162,14.868 9.1322,13.584 9.1322,12 C9.1322,11.573968 9.22508363,11.1696377 9.39170584,10.8061543 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        <path d="M10.9998,5.5001 L10.9998,2.0001 L12.9998,2.0001 L12.9998,5.5001 L10.9998,5.5001 Z M16.1162,6.8711 L14.3842,5.8711 L16.1342,2.8401 L17.8662,3.8401 L16.1162,6.8711 Z M18.1289,9.6162 L17.1289,7.8842 L20.1599,6.1342 L21.1599,7.8662 L18.1289,9.6162 Z M18.4998,13.0001 L18.4998,11.0001 L21.9998,11.0001 L21.9998,13.0001 L18.4998,13.0001 Z" id="Combined-Shape" fill="#1B202A"></path>
+    </g>
+</svg>

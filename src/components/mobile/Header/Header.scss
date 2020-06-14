@@ -1,0 +1,139 @@
+.fixed__position {
+  position: fixed;
+}
+
+.absoute__position {
+  position: absolute;
+}
+
+.mobile-header__wrapper {
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  width: 100%;
+  color: white;
+
+  .mobile-header__container {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+
+    &__collapse {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    &-icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  .bg_colored {
+    background-color: #1B202A;
+  }
+
+  .mobile-header__content {
+    display: flex;
+    flex-direction: column;
+    /*min-height: calc(100vh - 50px);*/
+    padding: 12px 0;
+    justify-content: space-between;
+    background-color: #1B202A;
+
+    &-items {
+      display: flex;
+      justify-content: space-between;
+      font-size: 16px;
+      font-family: 'TitilliumWeb-Bold', sans-serif;
+      font-weight: bold;
+      height: 48px;
+      align-items: center;
+      padding: 0 25px 0 15px;
+    }
+
+    .selected {
+      color: #2ed573;
+    }
+
+    &-subitems {
+      padding-top: 16px;
+      padding-bottom: 12px;
+      background-color: #252a37;
+
+      &_item {
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        padding: 6px 12px 6px 27px;
+        font-size: 14px;
+        line-height: 1.43;
+        font-family: 'TitilliumWeb-Bold', sans-serif;
+        
+        @media (min-width:320px) and (max-width:359px){
+          padding: 3px 12px 3px 27px;
+          margin-bottom:0px;
+          font-size:10px;
+        }
+        @media (min-width:360px) and (max-width:390px){
+          margin-bottom: 10px;
+          padding: 4px 12px 4px 27px;
+        }
+
+        &-content {
+          margin-left: 32px;
+
+          .title {
+            font-size: 12px;
+            font-family: 'TitilliumWeb-Bold', sans-serif;
+            line-height: 1.33;
+            font-weight: bold;
+          }
+
+          .desc {
+            font-size: 12px;
+            font-family: 'TitilliumWeb', sans-serif;
+            line-height: 1.33;
+            margin-top: 4px;
+          }
+        }
+      }
+
+      &_item_ {
+        margin-left: 10px;
+        .title {
+          font-size: 12px;
+          font-family: 'TitilliumWeb-Bold', sans-serif;
+          line-height: 1.33;
+          font-weight: bold;
+        }
+
+        .desc {
+          font-size: 12px;
+          font-family: 'TitilliumWeb', sans-serif;
+          line-height: 1.33;
+          margin-top: 4px;
+        }
+      }
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    &-demo {
+      padding: 0 12px;
+    }
+
+  }
+}
+
+.menu_selected {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+

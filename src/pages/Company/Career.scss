@@ -1,0 +1,466 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.dt-career__container {
+  .headerImg {
+    .governanceCol {
+      padding: 0;
+      position: relative;
+      background: url("../../assets/images/careerbgimg.png");
+      min-height: 450px;
+      background-position: top center;
+      background-size: cover;
+      @include media-breakpoint-down(lg) {
+        min-height: 350px;
+      }
+      @include media-breakpoint-down(md) {
+        min-height: 300px;
+      }
+      @include media-breakpoint-down(sm) {
+        min-height: 200px;
+      }
+      @include media-breakpoint-down(xs) {
+        min-height: 160px;
+      }
+      img.dataflow_imgNew {
+        display: none;
+        /*max-width: 100%;
+        min-height: 380px;
+        margin: 0px !important;*/
+      }
+      &:before {
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: "";
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+  .dt-career__header {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    max-width: 1440px;
+    margin: 130px auto 0 !important;
+    color: white;
+    position: static;
+    top: 22%;
+    left: 12%;
+    @include media-breakpoint-down(md) {
+      margin: 110px auto 0 !important;
+      width: 95%;
+      // margin-top: 100px!important;
+    }
+    @include media-breakpoint-down(sm) {
+      .dt-green-btn{margin:20px 0!important}
+    }
+    @include media-breakpoint-down(xs) {
+      // margin: 10px auto 0 !important;
+      width:100%;
+      margin: 65px auto 0 !important;
+      // margin-top: 100px!important;
+    }
+    .career-header__desc {
+      @include media-breakpoint-down(lg) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      }
+      .page-category {
+        font-size: 1.3em;
+        // color: #2ed573;
+        color: #fff;
+        letter-spacing: 0.96px;
+        line-height: 24px;
+      }
+
+      .career-page__title {
+        font-family: "TitilliumWeb-Bold", sans-serif;
+        font-size: 5em;
+        line-height: 72px;
+        @include media-breakpoint-down(sm) {
+          font-size: 2.5em;
+    line-height: 28px;
+        }
+        @include media-breakpoint-down(xs) {
+          font-size: 2.5em;
+          line-height: inherit;
+        }
+      }
+      .career-page__desc {
+        margin-top: 32px;
+        font-size: 2em;
+        line-height: 32px;
+        @include media-breakpoint-down(md) {
+          margin-top: 10px;
+          font-size: 1.5em;
+    line-height: 24px;
+        }
+        @include media-breakpoint-down(sm) {
+          font-size: 1.3em;
+          line-height: 20px;
+          margin-top: 0px
+        }
+      }
+      .dt-green-btn{
+        height: 40px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        @include media-breakpoint-down(md) {
+          margin-top: 12px;
+          margin-bottom: 12px;
+        }
+        @include media-breakpoint-down(sm) {
+          height: 28px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+
+      }    }
+  }
+
+  .dt-career-success__content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 388px;
+    color: #1b202a;
+    // margin-top: 96px;
+
+    @include media-breakpoint-down(xs) {
+      margin-top:0px;
+      height: fit-content;
+      padding: 50px 15px;
+    }
+
+    .success__title {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      font-size: 3.3em;
+      text-align: center;
+      line-height: 48px;
+
+      @include media-breakpoint-down(xs) {
+        line-height: inherit;
+      }
+    }
+
+    .success__desc {
+      font-size: 1.5em;
+      text-align: center;
+      line-height: 28px;
+      max-width: 1192px;
+      margin-top: 16px;
+    }
+  }
+  .dt-careers-value {
+    background: #f1f2f6;
+
+    .dt-career-core-values__content {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto !important;
+      color: black;
+      padding-top: 120px;
+      padding-bottom: 120px;
+
+      @include media-breakpoint-down(xs) {
+        width: 100%;
+        padding: 50px 0;
+      }
+
+      .core-values__side {
+        @include media-breakpoint-down(xs) {
+          text-align: center;
+        }
+
+        .core-values__title {
+          font-family: "TitilliumWeb-Bold", sans-serif;
+          font-size: 3.3em;
+          line-height: 48px;
+        }
+
+        .core-values__desc {
+          margin-top: 16px;
+          font-size: 1.5em;
+          line-height: 28px;
+          max-width: 500px;
+        }
+      }
+
+      .core-values__accordion {
+        .core-values__collapsed-item {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 26px 0;
+          border-style: solid;
+          border-width: 0 0 1px 0;
+          border-color: #1b202a;
+
+          @include media-breakpoint-down(xs) {
+            padding: 15px 0;
+          }
+
+          .collapsed-item__icon {
+            height: 100%;
+
+            img {
+              @include media-breakpoint-down(xs) {
+                height: 55px;
+              }
+            }
+          }
+
+          .collapsed-item__content {
+            width: 81%;
+
+            @include media-breakpoint-down(xs) {
+              width: 70%;
+            }
+
+            .collapsed__title {
+              font-family: "TitilliumWeb-Bold", sans-serif;
+              font-size: 2em;
+              line-height: 32px;
+              height: 60px;
+              display: flex;
+              align-items: center;
+            }
+
+            .collapsed__description {
+              font-size: 1.5em;
+              line-height: 28px;
+            }
+          }
+
+          .collapsed-item__close {
+            padding-top: 20px;
+            fill: #000;
+
+            .opened {
+              transform: rotate(45deg);
+              transition: transform 0.1s;
+            }
+          }
+        }
+      }
+    }
+  }
+  .dt-career-perks__content {
+    background-color: #f1f2f6;
+    color: #1b202a;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    @include media-breakpoint-down(xs) {
+      padding: 50px 0;
+    }
+
+    .perks__title {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      font-size: 3.3em;
+      text-align: center;
+      line-height: 48px;
+    }
+
+    .perks-items__content {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding-top: 20px;
+
+      @include media-breakpoint-down(xs) {
+        width: 100%;
+      }
+
+      .perk-items__row {
+        margin-top: 40px;
+
+        .perkitem__wrapper {
+          margin-top: 20px;
+        }
+
+        .perkitem__offset__wrapper {
+          @include media-breakpoint-down(xs) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .dt-career-jobs__content {
+    background-color: white;
+    color: #1b202a;
+    padding: 120px 0;
+
+    @include media-breakpoint-down(xs) {
+      padding: 50px 0;
+    }
+
+    .jobs-content__title {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      font-size: 3.3em;
+      text-align: center;
+      line-height: 48px;
+    }
+
+    .jobs-content__desc {
+      margin-top: 16px;
+      font-size: 2em;
+      text-align: center;
+      line-height: 32px;
+
+      @include media-breakpoint-down(xs) {
+        margin-top: 0px;
+        padding: 0 15px;
+      }
+    }
+
+    .jobs-content__container {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto;
+      margin-top: 68px;
+
+      @include media-breakpoint-down(xs) {
+        width: 100%;
+        margin-top: 0;
+      }
+
+      .job-category__row {
+        padding: 24px 0;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: #dfe4ea;
+      }
+
+      .jobs__category {
+        font-family: "TitilliumWeb-Bold", sans-serif;
+        font-size: 2.7em;
+        line-height: 40px;
+        padding-top: 15px;
+      }
+
+      .job-item__row {
+        padding: 16px 0;
+        font-size: 1.5em;
+        line-height: 28px;
+        border-radius: 5px;
+
+        &:hover {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+            0 6px 20px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .job-title {
+          font-family: "TitilliumWeb-Bold", sans-serif;
+        }
+
+        .job-location {
+          text-align: end;
+        }
+      }
+    }
+  }
+
+  .wirling-wrapper {
+    position: relative;
+    background-color: #ffffff;
+    img.wirlingImg {
+      margin: 0 7px;
+    }
+    button {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 50px;
+      opacity: 0.3;
+      font-size: 2rem;
+      border: 0;
+      outline: none;
+      font-weight: 800;
+      z-index: 1;
+
+      &.wirling-prev {
+        left: 0;
+      }
+
+      &.wirling-next {
+        right: 0;
+      }
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+.wirling-wrapper .wirlingImg {
+  animation: moveSlideshow 12s linear infinite;
+}
+
+// new slider
+
+$animationSpeed: 80s;
+
+// Animation
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 14 - 80vw));
+  }
+}
+
+// Styling
+@mixin white-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  overflow: hidden;
+  position: relative;
+
+  &::before,
+  &::after {
+    @include white-gradient;
+    content: "";
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+
+  .slide {
+    height: 400px;
+    margin: 0 7px;
+  }
+}

@@ -1,0 +1,31 @@
+.dropdown-menu__contact {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  width: 36%;
+  max-width: 520px;
+  padding-top: 20px;
+
+  .content {
+    font-size: 1.3em;
+    line-height: 24px;
+    width: 70%;
+
+    .contact__desc {
+    }
+    
+    .contact__link {
+      margin-top: 24px;
+    }
+  }
+
+  .icon {
+    width: 30%;
+    text-align: center;
+
+    img {
+      width: 80px;
+      transform: rotate(-33deg);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.press-card__container {
+  min-height: 560px;
+  background-color: #f1f2f6;
+  color: #1b202a;
+  padding-bottom: 20px;
+
+  @include media-breakpoint-down(xs) {
+    width: 300px;
+    height: 460px;
+    margin: 0 auto 40px;
+  }
+  .cardImg {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    img {
+      max-height: 180px;
+    }
+  }
+  .press-card__title {
+    font-family: "TitilliumWeb-Bold", sans-serif;
+    font-size: 2em;
+    line-height: 28px;
+    margin: 32px 32px 0 32px;
+    @include media-breakpoint-down(lg) {
+      font-size: 1.6em; 
+    margin:20px 20px 0 20px;
+    }
+  }
+
+  .press-card__desc {
+    font-size: 1.5em;
+    line-height: 28px;
+    margin: 32px 32px 0 32px;
+    @include media-breakpoint-down(lg) {
+      font-size: 1.4em; 
+    margin:20px 20px 0 20px;
+    }
+  }
+}

@@ -1,0 +1,188 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.dt-deployment-container {
+  .deployment_container-header {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 133px;
+
+    @include media-breakpoint-down(xs) {
+      margin-top: 50px !important;
+      padding: 0 15px;
+      margin-left: 0px;
+      height: fit-content;
+      padding-bottom: 50px;
+      width: 100%;
+    }
+
+    .deployment_header-category {
+      color: #2ed573;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      font-size: 1.3em;
+    }
+
+    .deployment_header-title {
+      margin-top: 8px;
+      font-size: 5em;
+      line-height: 72px;
+      font-family: "TitilliumWeb-Bold", sans-serif;
+
+      @include media-breakpoint-down(xs) {
+        font-size: 3.5em;
+        line-height: inherit;
+      }
+    }
+
+    .deployment_header-desc {
+      margin-top: 16px;
+      font-size: 2em;
+      line-height: 32px;
+    }
+
+    .deployment_header-logo {
+      padding-right: 0;
+      img {
+        width: 100%;
+      }
+      @include media-breakpoint-down(xs) {
+        display: none;
+      }
+    }
+  }
+
+  .deployment_content-body {
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    @include media-breakpoint-down(xs) {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+
+    .content_item-row {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto !important;
+      margin-bottom: 120px !important;
+
+      @include media-breakpoint-down(lg) {
+        width: 96%;
+        margin-bottom: 32px !important;
+      }
+    }
+
+    .content_item-last-row {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto;
+
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+    }
+  }
+
+  .deployment_content-body_row {
+    padding: 120px 0;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto !important;
+
+    @include media-breakpoint-down(xs) {
+      padding: 32px 0;
+    }
+
+    .deploy_model-icon_wrapper {
+      padding-right: 0;
+
+      @include media-breakpoint-down(xs) {
+        padding-right: 15px;
+      }
+    }
+
+    .action-icon_wrapper {
+      padding-left: 0;
+
+      @include media-breakpoint-down(xs) {
+        padding-left: 15px;
+        margin-top: 32px;
+      }
+    }
+  }
+}
+
+.infra_content-title {
+  font-family: "TitilliumWeb-Bold", sans-serif;
+  font-size: 3.3em;
+  color: #1b202a;
+  line-height: 48px;
+
+  @include media-breakpoint-down(xs) {
+    line-height: inherit;
+  }
+}
+
+.infra_content-desc {
+  font-size: 1.5em;
+  color: #1b202a;
+  line-height: 28px;
+  padding-left: 25px;
+  margin-top: 24px;
+
+  @include media-breakpoint-down(xs) {
+    line-height: inherit;
+    margin-top: 12px;
+  }
+
+  li {
+    list-style: disc;
+  }
+}
+
+.infra_img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .infra_img-container_row {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+
+    @include media-breakpoint-down(lg) {
+      padding: 0;
+    }
+
+    @include media-breakpoint-down(md) {
+      .col-3 {
+        flex: 0 0 46%;
+        max-width: 46%;
+        margin: 2%;
+      }
+    }
+
+    .infra_img-container_col {
+      @include media-breakpoint-down(xs) {
+        padding: 0 2px !important;
+      }
+    }
+  }
+}
+
+.infra_item-content {
+  padding-left: 100px;
+
+  @include media-breakpoint-down(xs) {
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+}

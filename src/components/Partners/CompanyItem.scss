@@ -1,0 +1,22 @@
+.company_item_desc-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+
+  .company_item-title {
+    font-size: 2.5em;
+    
+  }
+
+  .company_item-desc {
+    margin-top: 22px;
+  }
+}
+
+.ImgCompany {
+  width: 100%;
+}

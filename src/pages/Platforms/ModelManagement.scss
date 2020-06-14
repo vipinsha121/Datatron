@@ -1,0 +1,253 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.dt-management-container {
+  .management_container-header {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 133px;
+
+    @include media-breakpoint-down(xs) {
+      margin-top: 50px !important;
+      padding: 0 15px;
+      margin-left: 0px;
+      height: fit-content;
+      padding-bottom: 50px;
+      width: 100%;
+    }
+
+    .management_header-category {
+      color: #2ed573;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      font-size: 1.3em;
+
+      @include media-breakpoint-down(xs) {
+        line-height: inherit;
+      }
+    }
+
+    .management_header-title {
+      margin-top: 8px;
+      font-size: 5em;
+      line-height: 72px;
+      font-family: "TitilliumWeb-Bold", sans-serif;
+
+      @include media-breakpoint-down(xs) {
+        font-size: 3.5em;
+      }
+    }
+
+    .management_header-desc {
+      margin-top: 16px;
+      font-size: 2em;
+      line-height: 32px;
+
+      @include media-breakpoint-down(xs) {
+        line-height: inherit;
+      }
+    }
+
+    .management_logo_wrapper {
+      padding-right: 0;
+      padding-top: 210px;
+      @include media-breakpoint-down(sm) {
+        padding-top: 20px;
+      }
+      @include media-breakpoint-down(xs) {
+        display: none;
+      }
+    }
+  }
+
+  .management_content-body {
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    @include media-breakpoint-down(xs) {
+      padding: 32px 0;
+    }
+
+    .content_item-row {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto !important;
+      margin-bottom: 120px !important;
+
+      @include media-breakpoint-down(md) {
+        width: 98%;
+        margin-bottom: 32px !important;
+      }
+
+      .shadow_content-container {
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        flex-direction: column;
+        padding-left: 100px;
+
+        @include media-breakpoint-down(xs) {
+          padding-left: 15px;
+        }
+      }
+
+      .management_routerule_img {
+        @include media-breakpoint-down(xs) {
+          width: 100%;
+        }
+      }
+    }
+
+    .content_item-last-row {
+      width: 75%;
+      max-width: 1440px;
+      margin: 0 auto !important;
+
+      @include media-breakpoint-down(xs) {
+        width: 100%;
+        padding-top: 0 !important;
+      }
+
+      .shadow_content-container {
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        flex-direction: column;
+        padding-left: 100px;
+
+        @include media-breakpoint-down(xs) {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+
+  .management_content-body_row {
+    padding: 120px 0;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto !important;
+
+    @include media-breakpoint-down(xs) {
+      padding: 32px;
+    }
+
+    .management_savetime-wrapper {
+      padding-right: 0;
+
+      @include media-breakpoint-down(xs) {
+        padding-right: 15px;
+      }
+    }
+
+    .management_modelselect-wrapper {
+      padding-left: 0;
+
+      @include media-breakpoint-down(xs) {
+        padding-left: 15px;
+        margin-top: 32px;
+      }
+    }
+  }
+
+  .management-white_paper-container {
+    background-color: #f1f2f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto !important;
+    color: #1b202a;
+
+    .white_paper-category {
+      color: #2ed573;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      font-size: 16px;
+    }
+
+    .white_paper-title {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      margin-top: 8px;
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    .white_paper-desc {
+      margin-top: 16px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    .white_paper-action {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      margin-top: 30px;
+      font-size: 24px;
+      color: #1b202a;
+      line-height: 32px;
+    }
+
+    .book-img {
+      display: flex;
+      justify-content: flex-end;
+      align-self: flex-end;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.shadowing_content-title {
+  font-family: "TitilliumWeb-Bold", sans-serif;
+  font-size: 3.3em;
+  color: #1b202a;
+  line-height: 48px;
+
+  @include media-breakpoint-down(xs) {
+    line-height: inherit;
+  }
+}
+
+.shadowing_content-desc {
+  font-size: 1.5em;
+  color: #1b202a;
+  line-height: 28px;
+  margin-top: 24px;
+
+  @include media-breakpoint-down(xs) {
+    line-height: inherit;
+    margin-top: 12px;
+  }
+}
+
+.shadowing_img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    max-width: 100%;
+  }
+}
+
+.margin_top_60 {
+  margin-top: 60px;
+
+  @include media-breakpoint-down(xs) {
+    margin-top: 12px;
+  }
+}
+
+.mobile-view_col-reverse {
+  @include media-breakpoint-down(xs) {
+    flex-direction: column-reverse;
+  }
+}

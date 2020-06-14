@@ -1,0 +1,25 @@
+.perk-item__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #1B202A;
+
+  .perk-item__icon {
+    width: 60px;
+  }
+
+  .perk-item__card-content {
+    padding-left: 32px;
+
+    .perk-item__card-title {
+      font-family: 'TitilliumWeb-Bold', sans-serif;
+      font-size: 1.5em;
+      line-height: 28px;
+    }
+
+    .perk-item__card-desc {
+      font-size: 1.5em;
+      line-height: 28px;
+    }
+  }
+}

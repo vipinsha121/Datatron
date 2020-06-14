@@ -1,0 +1,70 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+.dt-header-dropdown-menu {
+  height: 452px;
+  background-color: #1b202a;
+  color: white;
+
+  .dropdown-menu__content {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 64px;
+    @include media-breakpoint-down(md) {
+      width:94%;
+      flex-wrap:wrap;
+      .dropdown-menu__contact
+      {margin-right: 5%;
+        max-width:100%;margin-left:0;
+        width:44%;}
+     }
+    .dropdown-menu-item__title {
+      max-width: 336px;
+      margin-right: 32px;
+      width: 24%;
+      @include media-breakpoint-down(md) {
+        margin-right: 5%;
+        max-width:400px;
+        width:94%;
+       }
+      .title__h {
+        font-size: 2.7em;
+        font-family: "TitilliumWeb-Bold", sans-serif;
+        line-height: 40px;
+      }
+    }
+
+    .dropdown-menu-item__section {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      margin-right: 22px;
+      max-width: 244px;
+      width: 19%;
+      @include media-breakpoint-down(lg) {
+        margin-right: 3%;
+        max-width:400px;
+        width:24%;
+       }
+      @include media-breakpoint-down(md) {
+        margin-right: 3%;
+        max-width:400px;
+        width:45%;
+       }
+      .title,
+      .item__section-title {
+        font-size: 1.3em;font-family: "TitilliumWeb-Bold", sans-serif;
+        letter-spacing: 0.96px;
+        line-height: 28px;
+      }
+
+      .description,
+      .item__section-description {
+        font-size: 1.3em;
+        font-family: "TitilliumWeb", sans-serif;
+        line-height: 24px;
+      }
+    }
+  }
+}

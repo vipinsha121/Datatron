@@ -1,0 +1,179 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@font-face {
+  src: url("../../assets/fonts/TitilliumWeb-Light.ttf");
+  font-family: "TitilliumWeb";
+}
+
+@font-face {
+  src: url("../../assets/fonts/TitilliumWeb-Bold.ttf");
+  font-family: "TitilliumWeb-Bold";
+}
+
+.solutions-homepage-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+
+  @include media-breakpoint-down(xs) {
+    margin-top: 0px;
+  }
+
+  .industry-case-studies {
+    display: flex;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto !important;
+    flex-wrap: wrap;
+
+    @include media-breakpoint-down(md) {
+      width: 96%;
+      display: flex;
+    }
+    .industry-cast-items__wrapper {
+      margin-top: 40px;
+
+      @include media-breakpoint-down(xs) {
+        margin-top: 50px;
+      }
+    }
+
+    .case-study-wrapper {
+      flex-basis: 42%;
+      margin-right: 32px;
+      margin-bottom: 50px;
+    }
+
+    .case-study-link {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      cursor: pointer;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      margin-top: 25px;
+      line-height: 28px;
+    }
+
+    .industry-type {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      font-size: 32px;
+      margin-bottom: 10px;
+      line-height: 40px;
+    }
+
+    .industry-thumbnail {
+      width: 450px;
+      font-family: "TitilliumWeb", sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      color: #1b202a;
+    }
+  }
+
+  .industry-header {
+    background-color: #1b202a;
+    color: #fff;
+    padding-left: 12.5%;
+    padding-top: 102px;
+    padding-bottom: 120px;
+    @include media-breakpoint-down(md) {
+      padding: 50px 2%;
+    }
+
+    .industry-header-h5 {
+      color: #2ed573;
+      font-size: 1.3em;
+      font-family: "TitilliumWeb", sans-serif;
+      margin-bottom: 0;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+    }
+
+    .industry-header-paragraph {
+      font-family: "TitilliumWeb", sans-serif;
+      font-size: 1.5em;
+      line-height: 28px;
+      width: 700px;
+      margin-top: 16px;
+
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+
+    .industry-header-h3 {
+      font-size: 5em;
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      letter-spacing: 1px;
+      line-height: 72px;
+      margin-top: 8px;
+      margin-bottom: 0;
+
+      @include media-breakpoint-down(xs) {
+        font-size: 3.5em;
+        line-height: inherit;
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.text-input-style {
+  height: 176px !important;
+}
+
+.landing-page-images {
+  height: auto;
+  width: 100%;
+}
+
+// iPad Styles
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .solutions-homepage-container {
+    .industry-header {
+      padding-left: 120px;
+      padding-right: 40px;
+
+      .industry-header-paragraph {
+        width: 100%;
+      }
+    }
+
+    .industry-case-studies {
+      margin: 0;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: 0px;
+
+      .case-study-wrapper {
+        margin-bottom: 30px;
+        margin-left: 120px;
+        margin-right: 20px;
+
+        .industry-type {
+          font-size: 30px;
+        }
+
+        .landing-page-images {
+          width: 100%;
+          height: 450px;
+        }
+
+        .industry-thumbnail {
+          width: 100%;
+          font-size: 18px;
+        }
+      }
+
+      .case-study-link {
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.featured-card__component {
+  color: #2F3542;
+   
+  .card-title {
+    font-family: 'TitilliumWeb-Bold', sans-serif;
+    font-size: 2.6em;
+    line-height: 40px;
+    margin-top: 40px;
+  }
+
+  .card-desc {
+    margin-top: 16px;
+    font-size: 1.5em;
+    line-height: 28px;
+  }
+
+  .card-operation {
+    font-family: 'TitilliumWeb-Bold', sans-serif;
+    margin-top: 24px;
+    font-size: 1.5em;
+    line-height: 28px;
+    display: inline-block;
+  }
+}

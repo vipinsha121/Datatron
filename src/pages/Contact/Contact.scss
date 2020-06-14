@@ -1,0 +1,201 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+@font-face {
+  src: url('../../assets/fonts/TitilliumWeb-Regular.ttf');
+  font-family: 'TitilliumWeb'
+}
+
+@font-face {
+  src: url('../../assets/fonts/TitilliumWeb-SemiBold.ttf');
+  font-family: 'TitilliumWeb-Bold';
+}
+
+.dt-contact__container {
+  background-color: white;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  @media only screen and (max-width: 850px)
+  {
+    margin-top: 135px;
+    padding-top: 40px;
+  }
+  @media only screen and (max-width: 576px)
+  {
+    margin-top: 50px;
+    padding-top: 40px;
+  }
+  @include media-breakpoint-down(xs) {
+    margin-top: 50px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+
+  .dt-contact__content{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;  
+    
+    @include media-breakpoint-down(xs) {
+      width: 100%;
+    }
+  }
+
+  .form-wrapper {
+    background: rgba(241, 242, 246, .4);
+    padding: 60px;
+    height: fit-content;
+
+    .contact-us {
+      font-size: 1.3em;
+      color: #2ED573;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      font-family: 'TitilliumWeb', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-transform: uppercase;
+
+      @include media-breakpoint-down(xs) {
+        line-height: inherit;
+      }
+    }
+
+    .get-in-touch {
+      font-size: 3.3em;
+      color: #1B202A;
+      line-height: 32px;
+      font-family: 'TitilliumWeb-Bold', sans-serif;
+      margin-top: 20px;
+      margin-bottom: 15px;
+
+      @include media-breakpoint-down(xs) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .fill-form {
+      font-size: 2em;
+      color: #1B202A;
+      line-height: 32px;
+      font-family: 'TitilliumWeb', sans-serif;
+      margin-bottom: 40px;
+
+      @include media-breakpoint-down(xs) {
+        line-height: inherit;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .address-container {
+    margin-bottom: 250px;
+    padding-left: 80px;
+
+    @include media-breakpoint-down(xs) {
+      padding: 60px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+
+    .addresses {
+      font-size: 1.3em;
+      color: #1B202A;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      font-family: 'TitilliumWeb-Bold', 'Helvetica', sans-serif;
+    }
+
+    .divider-style {
+      opacity: 0.4;
+      background: #DFE4EA;
+    }
+
+    .mountain-h5 {
+      font-size: 1.6em;
+      color: #1B202A;
+      line-height: 24px;
+      font-family: 'TitilliumWeb-Bold', sans-serif;
+      margin-bottom: 4px;
+      margin-top: 50px;
+
+      @include media-breakpoint-down(xs) {
+        line-height: inherit;
+        margin-top: 30px;
+      }
+    }
+
+    .main-address {
+      font-size: 1.5em;
+      color: #1B202A;
+      line-height: 28px;
+      font-family: 'TitilliumWeb', sans-serif;
+
+      @include media-breakpoint-down(xs) {
+        line-height: inherit;
+      }
+    }
+
+    a.main-address:hover {
+      color: #007bff!important;
+    }
+
+    .connect {
+      margin-top: 75px;
+      margin-bottom: 0;
+      font-size: 1.3em;
+      color: #1B202A;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      text-transform: uppercase;
+      font-family: 'TitilliumWeb-Bold', sans-serif;
+
+      @include media-breakpoint-down(xs) {
+        margin-top: 50px;
+      }
+    }
+
+    .icon-style {
+      font-size: 1.6em;
+      margin-right: 20px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  }
+
+  
+
+  .thanks-wrapper {
+    background: rgba(241, 242, 246, .4);
+    padding: 60px;
+    height: fit-content;
+
+    .thanks-text {
+      font-size: 3.3em;
+      color: #1B202A;
+      line-height: 48px;
+      font-family: 'TitilliumWeb-Bold', sans-serif;
+      margin-bottom: 7px;
+    }
+  
+    .appreciate-text {
+      font-size: 2em;
+      color: #1B202A;
+      line-height: 32px;
+      font-family: 'TitilliumWeb', sans-serif;
+      margin-bottom: 20px;
+    }
+  }
+
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}

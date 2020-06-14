@@ -1,0 +1,36 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.contact_form-container {
+  color: #1B202A;
+
+  .contact_form-row {
+    margin-top: 24px;
+
+    .contact_form-col {
+      display: flex;
+      flex-direction: column;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      
+      @include media-breakpoint-down(xs) {
+        padding: 0px;
+      }
+
+      .contact_form-label {
+        line-height: 24px;
+      }
+
+      .contact_form-input {
+        padding: 8px 5px;
+
+        @include media-breakpoint-down(xs) {
+          border-style: solid;
+          border-color: rgb(204, 204, 204);
+          border-width: 1px;
+        }
+      }
+    }
+  }
+}

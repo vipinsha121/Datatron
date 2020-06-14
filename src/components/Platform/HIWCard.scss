@@ -1,0 +1,73 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.dt-hiw_card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  .hiw_card-title {
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'TitilliumWeb-Bold', sans-serif;
+
+    @include media-breakpoint-down(xs) {
+      font-size: 2.3em;
+      line-height: inherit;
+    }
+  }
+
+  .hiw_card-desc {
+    margin-top: 16px;
+    opacity: 0.8;
+    font-size: 1.5em;
+    line-height: 28px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+    }
+  }
+
+  .hiw_card-link {
+    margin-top: 16px;
+    font-size: 1.5em;
+    font-family: 'TitilliumWeb-Bold', sans-serif;
+    line-height: 26px;
+    display: inline-block;
+    
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+    }
+  }
+
+  .hiw_card_icon-container {
+    text-align: center;
+
+    @include media-breakpoint-down(xs) {
+      display: none;
+    }
+
+    .hiw_card-icon {
+      padding: 8px;
+      background-color:  #1B202A;
+    }
+  }
+
+  .hiw_card-content {
+    padding: 0 50px;
+    
+    @include media-breakpoint-down(xs) {
+      padding: 0 15px;
+      margin-top: 16px;
+    }
+
+  }
+}
+
+.mobile_view-reverse {
+  @include media-breakpoint-down(xs) {
+    flex-flow: column-reverse;
+  }
+}

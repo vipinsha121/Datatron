@@ -1,0 +1,47 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.advisor__component {
+  color: white;
+  widows: 340px;
+  border-width: 0 0 0 4px;
+  border-style: solid;
+  border-color: #2ED573;
+  padding: 0 20px;
+  
+  @include media-breakpoint-down(xs) {
+    height: fit-content;
+  }
+
+  .advisor__name {
+    font-family: 'TitilliumWeb-Bold', sans-serif;
+    font-size: 2em;
+    line-height: 32px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+    }
+  }
+
+  .advisor__role {
+    font-size: 1.5em;
+    line-height: 28px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+    }
+  }
+
+  .advisor__history {
+    margin-top: 20px;
+    opacity: 0.6;
+    font-size: 1.5em;
+    line-height: 28px;
+
+    @include media-breakpoint-down(xs) {
+      line-height: inherit;
+      margin-top: 10px;
+    }
+  }
+}

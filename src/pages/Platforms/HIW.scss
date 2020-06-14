@@ -1,0 +1,243 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.dt-hiw__container {
+  .hiw-container__header {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+
+    @include media-breakpoint-down(xs) {
+      width: 100%;
+    }
+
+    .left-hex__img {
+      position: relative;
+      top: -252px;
+      left: -300px;
+
+      @include media-breakpoint-down(xs) {
+        display: none;
+      }
+    }
+
+    .right-hex__img {
+      position: relative;
+      right: -150px;
+
+      @include media-breakpoint-down(xs) {
+        width: 450px;
+        right: -90px;
+      }
+    }
+
+    .reverse-rotate {
+      animation: reverse-rotation 130s infinite linear;
+    }
+
+    .rotate {
+      animation: rotation 130s infinite linear;
+    }
+  }
+
+  .dt-hiw-container__body {
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 240px;
+    position: relative;
+
+    @include media-breakpoint-down(xs) {
+      padding-top: 335px;
+    }
+
+    .hiw-container__category {
+      text-align: center;
+      color: #2ed573;
+      letter-spacing: 0.96px;
+      line-height: 24px;
+      font-size: 16px;
+    }
+
+    .hiw-container__page-title {
+      text-align: center;
+      margin-top: 8px;
+      font-size: 5em;
+      line-height: 72px;
+      font-family: "TitilliumWeb-Bold", sans-serif;
+
+      @include media-breakpoint-down(xs) {
+        font-size: 3.5em;
+        line-height: inherit;
+      }
+    }
+
+    .hiw-container__page-desc {
+      text-align: center;
+      margin-top: 40px;
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      font-size: 32px;
+      line-height: 40px;
+
+      @include media-breakpoint-down(xs) {
+        font-size: 2em;
+        line-height: inherit;
+      }
+    }
+
+    .hiw_line-component {
+      position: absolute;
+      left: calc(50% - 20px);
+      display: flex;
+      width: fit-content;
+      height: calc(100% - 690px);
+
+      @include media-breakpoint-down(xs) {
+        display: none;
+      }
+    }
+
+    .hiw-line-repeat-text {
+      margin-top: 120px;
+      padding-left: 140px;
+      text-align: center;
+      opacity: 0.8;
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 28px;
+
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+    }
+
+    .hiw-line-start-text {
+      margin-top: 40px;
+      padding-right: 140px;
+      text-align: center;
+      opacity: 0.8;
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 28px;
+
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+    }
+
+    .gree-btn-container {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @include media-breakpoint-down(xs) {
+        margin-top: 32px;
+      }
+    }
+
+    .hiw_card_component-wrapper {
+      margin-top: 120px;
+
+      @include media-breakpoint-down(xs) {
+        margin-top: 32px;
+      }
+    }
+  }
+
+  .hiw-content_optimize-container {
+    margin-top: 120px;
+    background-color: white;
+    color: #1b202a;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    @include media-breakpoint-down(xs) {
+      margin-top: 32px;
+      padding: 32px 0;
+    }
+
+    .optimize-title {
+      font-family: "TitilliumWeb-Bold", sans-serif;
+      width: 75%;
+      margin: 0 auto;
+      max-width: 944px;
+      font-size: 40px;
+      text-align: center;
+      line-height: 48px;
+
+      @include media-breakpoint-down(xs) {
+        line-height: inherit;
+        font-size: 3.3em;
+        width: 100%;
+        padding: 0 15px;
+      }
+    }
+
+    .optimize-tab-icon {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: Helvetica;
+      font-size: 18px;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 24px;
+      margin-top: 40px;
+      height: 42px;
+
+      .with_dt-tab {
+        margin-left: 24px;
+        cursor: pointer;
+      }
+
+      .with_dt-tab {
+        cursor: pointer;
+      }
+
+      .selected {
+        color: #2ed573;
+        border-bottom-color: #2ed573;
+        border-width: 0 0 2px 0;
+        border-style: solid;
+      }
+    }
+
+    .tab-img-content {
+      margin-top: 80px;
+      text-align: center;
+
+      @include media-breakpoint-down(xs) {
+        margin-top: 32px;
+        padding: 0 15px;
+      }
+
+      .hiw_tab-img {
+        
+          width: 100%;
+         max-width: 990px;
+      }
+    }
+  }
+}
+
+@keyframes reverse-rotation {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(1deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

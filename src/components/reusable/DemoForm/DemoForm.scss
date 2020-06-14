@@ -1,0 +1,41 @@
+.input-wrappers {
+  display: flex;
+  justify-content: space-between;
+
+  .field-label-wrappers {
+    display: flex;
+    flex-direction: column;
+
+    .field-labels {
+      margin-bottom: 5px;
+      font-size: 16px;
+      font-family: 'TitilliumWeb';
+    }
+
+    .field-input {
+      width: 220px;
+      height: 25px;
+      margin-bottom: 20px;
+      padding-left: 15px;
+      outline: none;
+    }
+  }
+}
+
+.single-field-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .field-labels {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'TitilliumWeb';
+  }
+
+  .field-input {
+    height: 25px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    outline: none;
+  }
+}

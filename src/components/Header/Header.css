@@ -1,0 +1,119 @@
+.dt-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 100;
+}
+
+.dt-header__background__hovered {
+  background-color: #1b202a;
+}
+
+.dt-header-container {
+  height: 80px;
+  width: 100%;
+}
+@media only screen and (max-width: 850px) {
+  .dt-header, .dt-header-container {
+    height: 110px; 
+  }
+}
+.dt-header-content {
+  width: 75%;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.dt-header-menubar {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+}
+
+.dt-header-menu-item {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  color: white;
+  height: 100%;
+  font-size: 1.3em;
+}
+
+.dt-header-menu-item-active {
+  display: flex;
+  align-items: center;
+  color: #2ed573;
+  border-color: #2ed573;
+  height: 100%;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  margin-right: 32px;
+  font-size: 1.3em;
+}
+@media only screen and (max-width:1199px){
+  .dt-header-menu-item,.dt-header-menu-item-active {
+    margin-right: 20px;}
+}
+.header-menu__show {
+  display: flex !important;
+  animation: fade-in 0.3s !important;
+}
+
+.header-menu__hidden {
+  display: none !important;
+  animation: fade-in 0.3s !important;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .dt-header-content {
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .dt-header-content {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .dt-header-content {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .dt-header-content a{height: 60px!important;}
+  .dt-header-menu-item-active,
+  .dt-header-menu-item {
+    margin-right: 15px;
+  }
+  .dt-green-btn {
+    padding: 0 15px;
+    margin-top: 15px;
+  }
+}

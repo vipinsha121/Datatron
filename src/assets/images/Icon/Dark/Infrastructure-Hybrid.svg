@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Dark/Infrastructure-Hybrid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Dark/Infrastructure-Hybrid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(0.000000, 2.000000)">
+            <path d="M8.3681,10 C7.5141,11.037 7.0001,12.365 7.0001,13.813 C7.0001,13.877 7.0081,13.938 7.0101,14 L0.0001,14 L0.0001,10 L8.3681,10 Z M2,2.5 L6,2.5 L6,1.5 L2,1.5 L2,2.5 Z M0,4 L0,0 L13,0 L13,4 L0,4 Z M2,7.5 L6,7.5 L6,6.5 L2,6.5 L2,7.5 Z M13,5 L13,7.814 C11.661,7.814 10.428,8.258 9.43,9 L0,9 L0,5 L13,5 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M20,11.8067 C19.554,11.8067 19.133,11.8967 18.732,12.0317 C17.976,9.5847 15.695,7.8067 13,7.8067 L13,8.9937 L9.43,8.9937 C9.038,9.2847 8.679,9.6167 8.368,9.9937 L13,9.9937 L13,13.9937 L7.01,13.9937 C7.108,17.2197 9.749,19.8067 13,19.8067 L20,19.8067 C22.209,19.8067 24,18.0167 24,15.8067 C24,13.5977 22.209,11.8067 20,11.8067" id="Fill-6" fill="#2FD573"></path>
+            <path d="M13,9.9932 L8.368,9.9932 C7.514,11.0302 7,12.3582 7,13.8062 C7,13.8702 7.008,13.9312 7.01,13.9932 L13,13.9932 L13,9.9932 Z" id="Fill-8" fill="#7BED9F"></path>
+            <path d="M13,7.81 C11.661,7.81 10.428,8.254 9.43,8.997 L13,8.997 L13,7.81 Z" id="Fill-10" fill="#7BED9F"></path>
+        </g>
+    </g>
+</svg>

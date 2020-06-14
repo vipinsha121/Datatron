@@ -1,0 +1,21 @@
+
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Platform/Deployment" transform="translate(-1252.000000, -2756.000000)">
+            <g id="ROI" transform="translate(0.000000, 2636.000000)">
+                <g id="content" transform="translate(424.000000, 120.000000)">
+                    <g id="roi" transform="translate(644.000000, 0.000000)">
+                        <g id="icon" transform="translate(184.000000, 0.000000)">
+                            <circle id="Oval-Copy" fill="#FFFFFF" cx="30" cy="30" r="30"></circle>
+                            <g id="Group-4" transform="translate(16.000000, 16.000000)">
+                                <polygon id="Fill-1" fill="#3867D6" points="0 19.9171 14 27.9997667 27.9988333 19.9171 14 11.8344333"></polygon>
+                                <polygon id="Fill-2" fill="#1B202A" points="0 14.00035 14 22.08185 27.9988333 14.00035 14 5.91651667"></polygon>
+                                <polygon id="Fill-3" fill="#2FD573" points="13.99965 -0.00035 -0.00035 8.08231667 13.99965 16.16615 27.99965 8.08231667"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

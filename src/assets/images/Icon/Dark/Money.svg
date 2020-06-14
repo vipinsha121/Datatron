@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Dark/Money</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Dark/Money" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Fill-2" fill="#FFFFFF" points="2.022 19 24.023 19 24.023 7 2.022 7"></polygon>
+        <polygon id="Fill-3" fill="#2FD573" points="0 17 22 17 22 5 0 5"></polygon>
+        <path d="M14.988,11 C14.988,13.7604621 13.198159,16 10.988517,16 C8.77887502,16 6.988,13.7604621 6.988,11 C6.988,8.23953793 8.77887502,6 10.988517,6 C13.198159,6 14.988,8.23953793 14.988,11 Z M3.0105,16.0117 L1.0105,16.0117 L1.0105,14.0117 C2.1155,14.0117 3.0105,14.9077 3.0105,16.0117 Z M3.0105,5.9999 C3.0105,7.1039 2.1155,7.9999 1.0105,7.9999 L1.0105,5.9999 L3.0105,5.9999 Z M18.9997,16.0117 C18.9997,14.9077 19.8957,14.0117 20.9997,14.0117 L20.9997,16.0117 L18.9997,16.0117 Z M18.9997,5.9999 L20.9997,5.9999 L20.9997,7.9999 C19.8957,7.9999 18.9997,7.1039 18.9997,5.9999 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

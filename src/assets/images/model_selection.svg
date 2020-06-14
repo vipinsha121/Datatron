@@ -1,0 +1,20 @@
+
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Platform/Management" transform="translate(-1252.000000, -1970.000000)">
+            <g id="roi" transform="translate(0.000000, 1850.000000)">
+                <g id="content" transform="translate(424.000000, 120.000000)">
+                    <g id="roi" transform="translate(644.000000, 0.000000)">
+                        <g id="icon" transform="translate(184.000000, 0.000000)">
+                            <circle id="Oval-Copy" fill="#FFFFFF" cx="30" cy="30" r="30"></circle>
+                            <g id="Icon/Light/Model" transform="translate(16.000000, 16.000000)">
+                                <polygon id="Fill-1" fill="#2ED573" points="14.0026833 -0.00035 1.87868333 6.99965 14.0026833 14.0008167 26.1266833 6.99965"></polygon>
+                                <path d="M1.87833333,20.99965 L1.87833333,6.99965 L14.0023333,14.0008167 L14.0023333,27.99965 L1.87833333,20.99965 Z M14.0026833,14.00035 L26.1266833,7.00035 L26.1266833,20.9991833 L14.0026833,28.00035 L14.0026833,14.00035 Z" id="Combined-Shape" fill="#1B202A"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

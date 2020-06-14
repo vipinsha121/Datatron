@@ -1,0 +1,39 @@
+
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="0.000183333333 0 22 0 22 21.9999083 0.000183333333 21.9999083"></polygon>
+        <polygon id="path-3" points="0 22 22 22 22 0 0 0"></polygon>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1232.000000, -1280.000000)">
+            <g id="features" transform="translate(0.000000, 960.000000)">
+                <g id="content" transform="translate(240.000000, 120.000000)">
+                    <g id="Group-15" transform="translate(992.000000, 200.000000)">
+                        <g id="icon">
+                            <circle id="Oval" fill="#FFFFFF" cx="20" cy="20" r="20"></circle>
+                            <g id="monitoring" transform="translate(9.000000, 9.000000)">
+                                <g id="Group-3">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Clip-2"></g>
+                                    <path d="M22.0001833,10.9999083 C22.0001833,17.075575 17.0749333,21.9999083 11.0001833,21.9999083 C4.92451667,21.9999083 0.000183333333,17.075575 0.000183333333,10.9999083 C0.000183333333,4.92515833 4.92451667,-9.16666667e-05 11.0001833,-9.16666667e-05 C17.0749333,-9.16666667e-05 22.0001833,4.92515833 22.0001833,10.9999083" id="Fill-1" fill="#2ED573" mask="url(#mask-2)"></path>
+                                </g>
+                                <path d="M13.62845,10.9999083 C13.62845,12.4519083 12.4523667,13.6289083 11.0003667,13.6289083 C9.54836667,13.6289083 8.37136667,12.4519083 8.37136667,10.9999083 C8.37136667,9.54790833 9.54836667,8.37090833 11.0003667,8.37090833 C12.4523667,8.37090833 13.62845,9.54790833 13.62845,10.9999083" id="Fill-4" fill="#FFFFFF"></path>
+                                <polygon id="Fill-6" fill="#FFFFFF" points="10.3521 11.6480833 5.35076667 6.64766667 6.64693333 5.3515 11.6482667 10.3519167"></polygon>
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Clip-9"></g>
+                                <polygon id="Fill-8" fill="#1B202A" mask="url(#mask-4)" points="10.0833333 5.04166667 11.9166667 5.04166667 11.9166667 1.83333333 10.0833333 1.83333333"></polygon>
+                                <polygon id="Fill-10" fill="#1B202A" mask="url(#mask-4)" points="14.7733667 6.29841667 13.1857 5.38175 14.7898667 2.60333333 16.3775333 3.52"></polygon>
+                                <polygon id="Fill-11" fill="#1B202A" mask="url(#mask-4)" points="16.6183417 8.81475833 15.701675 7.22709167 18.4800917 5.622925 19.3967583 7.21059167"></polygon>
+                                <polygon id="Fill-12" fill="#1B202A" mask="url(#mask-4)" points="16.9583333 11.9166667 20.1666667 11.9166667 20.1666667 10.0833333 16.9583333 10.0833333"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

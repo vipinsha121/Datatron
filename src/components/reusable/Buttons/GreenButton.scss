@@ -1,0 +1,22 @@
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.dt-green-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2ED573;
+  height: 36px;
+  border-radius: 4px;
+  padding: 0 24px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3em;
+  line-height: 24px;
+  border-style: none;
+
+  @include media-breakpoint-down(xs) {
+    height: 30px;
+  }
+}

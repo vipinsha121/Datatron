@@ -1,0 +1,30 @@
+
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="28"></rect>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Careers" transform="translate(-858.000000, -1014.000000)">
+            <g id="core-values" transform="translate(0.000000, 868.000000)">
+                <g id="content" transform="translate(240.000000, 120.000000)">
+                    <g id="Stacked-Group" transform="translate(618.000000, 0.000000)">
+                        <g id="positive">
+                            <g id="icon" transform="translate(0.000000, 26.000000)">
+                                <circle id="Oval" fill="#FFFFFF" cx="30" cy="30" r="30"></circle>
+                                <g id="Icon/Light/User-Compliment" transform="translate(16.000000, 16.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Background"></g>
+                                    <path d="M7.77746667,20.22195 C3.4818,20.22195 0.000466666667,23.70445 0.000466666667,28.0001167 L15.5556333,28.0001167 C15.5556333,23.70445 12.0731333,20.22195 7.77746667,20.22195 M12.4441333,14.0001167 C12.4441333,16.5772833 10.3546333,18.6667833 7.77746667,18.6667833 C5.2003,18.6667833 3.1108,16.5772833 3.1108,14.0001167 C3.1108,11.42295 5.2003,9.33345 7.77746667,9.33345 C10.3546333,9.33345 12.4441333,11.42295 12.4441333,14.0001167" id="Fill-1" fill="#1B202A" fill-rule="evenodd" mask="url(#mask-2)"></path>
+                                    <path d="M20.1619833,0 C15.8324833,0 12.32315,3.50933333 12.32315,7.83883333 C12.32315,10.0251667 13.2203167,12.0003333 14.66465,13.4225 L12.4444833,15.6776667 L20.1619833,15.6776667 C24.4903167,15.6776667 28.0008167,12.1671667 28.0008167,7.83883333 C28.0008167,3.50933333 24.4903167,0 20.1619833,0" id="Fill-4" fill="#2FD573" fill-rule="evenodd" mask="url(#mask-2)"></path>
+                                    <path d="M18.9956667,9.0055 L16.079,9.0055 L16.079,6.67216667 L18.9956667,6.67216667 L18.9956667,3.7555 L21.329,3.7555 L21.329,6.67216667 L24.2456667,6.67216667 L24.2456667,9.0055 L21.329,9.0055 L21.329,11.9221667 L18.9956667,11.9221667 L18.9956667,9.0055 Z" id="Combined-Shape" fill="#1B202A" fill-rule="evenodd" mask="url(#mask-2)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
